@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "yarn eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.12.0",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "lowdb": "^1.0.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-handlebarlabs": "^0.0.6",
+    "nodemon": "^2.0.3"
+  }
+}
